@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>dd60961a-1c18-4f39-9795-2af4482faadf</testSuiteGuid>
+   <testCaseLink>
+      <guid>ea8b1583-42b7-4993-87d6-e0b6bba4c012</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/APK SehatQ/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58456117-4f62-4780-b38c-dbeff0aabf18</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Apk/Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>58456117-4f62-4780-b38c-dbeff0aabf18</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>b9e9e8ed-73dc-43e1-8d6e-d48b9343eb36</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58456117-4f62-4780-b38c-dbeff0aabf18</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>34292e52-ee3c-465b-9a9b-49769ed65a11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58456117-4f62-4780-b38c-dbeff0aabf18</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Action</value>
+         <variableId>3622012c-7ce6-4691-8290-03b7e7658e8e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

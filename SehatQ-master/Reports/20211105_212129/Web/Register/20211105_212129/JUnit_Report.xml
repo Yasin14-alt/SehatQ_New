@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="48.668" tests="2" failures="1" errors="0">
+   <testsuite name="Register" tests="2" failures="1" errors="0" time="48.668" skipped="0" timestamp="2021-11-05 21:21:40" hostname="muhammadyaasin - localhost" id="Test Suites/Web/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211105_212129/Web/Register/20211105_212129"/>
+         <property name="logFiles" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211105_212129/Web/Register/20211105_212129/execution0.log"/>
+         <property name="attachments" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211105_212129/Web/Register/20211105_212129/1636122146838.png"/>
+         <property name="hostName" value="muhammadyaasin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7fe1902e73a426405354560e9cdf3184"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web SehatQ/Register" time="18.168" classname="Test Cases/Web SehatQ/Register" status="PASSED">
+         <system-out><![CDATA[2021-11-05 21:21:41 - [TEST_CASE][PASSED] - Test Cases/Web SehatQ/Register: Test Cases/Web SehatQ/Register
+
+2021-11-05 21:21:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web SehatQ/Setup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web SehatQ/Setup' successfully
+
+2021-11-05 21:21:42 - [TEST_CASE][PASSED] - Test Cases/Web SehatQ/Setup: Test Cases/Web SehatQ/Setup
+
+2021-11-05 21:21:42 - [TEST_STEP][PASSED] - openBrowser("https://www.sehatq.com/"): Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-05 21:21:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 21:21:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 21:21:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-05 21:21:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 21:21:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 21:21:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web SehatQ/Setup' successfully
+
+2021-11-05 21:21:48 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-05 21:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-05 21:21:53 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-05 21:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-05 21:21:54 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap"), Input_Nama_Lengkap): Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-05 21:21:55 - [MESSAGE][PASSED] - Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-05 21:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email"), Input_Email): Text 'a8@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-05 21:21:56 - [MESSAGE][PASSED] - Text 'a8@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-05 21:21:56 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email"), Input_Password): Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-05 21:21:57 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-05 21:21:57 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-05 21:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-05 21:21:58 - [TEST_STEP][PASSED] - check(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ")): Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-05 21:21:58 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-05 21:21:58 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-05 21:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-05 21:21:59 - [TEST_STEP][PASSED] - if (Action == "sudah terdaftar"): Email Sudah terdaftar
+
+2021-11-05 21:21:59 - [TEST_STEP][PASSED] - comment("Email Sudah terdaftar"): Email Sudah terdaftar
+
+2021-11-05 21:21:59 - [MESSAGE][INFO] - Email Sudah terdaftar]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web SehatQ/Register" time="28.777" classname="Test Cases/Web SehatQ/Register" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-11-05 21:21:59 - [TEST_CASE][FAILED] - Test Cases/Web SehatQ/Register: Test Cases/Web SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-11-05 21:21:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web SehatQ/Setup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web SehatQ/Setup' successfully
+
+2021-11-05 21:21:59 - [TEST_CASE][PASSED] - Test Cases/Web SehatQ/Setup: Test Cases/Web SehatQ/Setup
+
+2021-11-05 21:21:59 - [TEST_STEP][PASSED] - openBrowser("https://www.sehatq.com/"): Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-05 21:21:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 21:21:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 21:21:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 21:22:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-05 21:22:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 21:22:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 21:22:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web SehatQ/Setup' successfully
+
+2021-11-05 21:22:03 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-05 21:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-05 21:22:08 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-05 21:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-05 21:22:09 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap"), Input_Nama_Lengkap): Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-05 21:22:10 - [MESSAGE][PASSED] - Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-05 21:22:10 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email"), Input_Email): Text 'a43@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-05 21:22:12 - [MESSAGE][PASSED] - Text 'a43@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-05 21:22:12 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email"), Input_Password): Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-05 21:22:13 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-05 21:22:13 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-05 21:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-05 21:22:14 - [TEST_STEP][PASSED] - check(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ")): Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-05 21:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-05 21:22:14 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-05 21:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-05 21:22:15 - [TEST_STEP][PASSED] - if (Action == "sudah terdaftar"): null
+
+2021-11-05 21:22:15 - [TEST_STEP][FAILED] - else: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1636038914763.run(Script1636038914763.groovy:50)
+	... 13 more
+)
+
+2021-11-05 21:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_No_Telp"), No_Tlpn): Text '085213452345' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_No_Telp'
+
+2021-11-05 21:22:23 - [MESSAGE][PASSED] - Text '085213452345' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_No_Telp'
+
+2021-11-05 21:22:23 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Tanggal_New")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Tanggal_New' is clicked on
+
+2021-11-05 21:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Tanggal_New' is clicked on
+
+2021-11-05 21:22:25 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan' is clicked on
+
+2021-11-05 21:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan' is clicked on
+
+2021-11-05 21:22:26 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan"), "September", true): Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1636038914763.run(Script1636038914763.groovy:50)
+	... 13 more
+)
+
+2021-11-05 21:22:26 - [MESSAGE][FAILED] - No option matched.
+
+2021-11-05 21:22:28 - [MESSAGE][FAILED] - Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1636038914763.run(Script1636038914763.groovy:50)
+	... 13 more
+)
+[[ATTACHMENT|/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211105_212129/Web/Register/20211105_212129/1636122146838.png]]]]></system-out>
+         <system-err><![CDATA[2021-11-05 21:21:59 - [TEST_CASE][FAILED] - Test Cases/Web SehatQ/Register: Test Cases/Web SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-05 21:21:40 - [TEST_SUITE][FAILED] - Register: Test Cases/Web SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-11-05 21:21:40 - [TEST_SUITE][FAILED] - Register: Test Cases/Web SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'September' of object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Bulan'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Register.run(Register:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636122089860.run(TempTestSuite1636122089860.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart,,,,2021-11-06 08:55:06,2021-11-06 08:55:59,52.776s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Cart,,,,2021-11-06 08:55:06,2021-11-06 08:55:59,52.511s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-06 08:55:07,2021-11-06 08:55:21,14.655s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 0)",,,,2021-11-06 08:55:21,2021-11-06 08:55:26,4.342s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 0)",,,,2021-11-06 08:55:26,2021-11-06 08:55:27,1.355s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 0)",,,,2021-11-06 08:55:27,2021-11-06 08:55:59,31.876s,FAILED

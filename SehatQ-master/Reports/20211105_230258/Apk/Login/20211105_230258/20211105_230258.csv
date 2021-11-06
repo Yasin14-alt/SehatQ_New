@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-05 23:03:06,2021-11-05 23:03:07,1.025s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:03:07,2021-11-05 23:03:07,0.736s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:03:07,2021-11-05 23:03:07,0.454s,FAILED

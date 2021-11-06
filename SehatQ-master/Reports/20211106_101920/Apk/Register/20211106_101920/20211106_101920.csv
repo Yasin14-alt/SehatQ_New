@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-11-06 10:19:31,2021-11-06 10:20:19,48.464s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 10:19:31,2021-11-06 10:20:17,46.127s,FAILED
+"startExistingApplication(""com.she.sehatq"", STOP_ON_FAILURE)",,,,2021-11-06 10:19:31,2021-11-06 10:19:45,13.563s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 0)",,,,2021-11-06 10:19:45,2021-11-06 10:20:17,32.219s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 10:20:17,2021-11-06 10:20:19,1.961s,FAILED
+"startExistingApplication(""com.she.sehatq"", STOP_ON_FAILURE)",,,,2021-11-06 10:20:17,2021-11-06 10:20:19,1.940s,FAILED

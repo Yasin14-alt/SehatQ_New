@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="48.911" tests="2" failures="0" errors="0">
+   <testsuite name="Register" tests="2" failures="0" errors="0" time="48.911" skipped="0" timestamp="2021-11-04 22:26:25" hostname="muhammadyaasin - localhost" id="Test Suites/Web/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211104_222615/Web/Register/20211104_222615"/>
+         <property name="logFiles" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211104_222615/Web/Register/20211104_222615/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadyaasin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="049ca5e60d0e95c5568749c088756aee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web SehatQ/Register" time="21.395" classname="Test Cases/Web SehatQ/Register" status="PASSED">
+         <system-out><![CDATA[2021-11-04 22:26:26 - [TEST_CASE][PASSED] - Test Cases/Web SehatQ/Register: Test Cases/Web SehatQ/Register
+
+2021-11-04 22:26:26 - [TEST_STEP][PASSED] - openBrowser("https://www.sehatq.com/"): Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-04 22:26:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-04 22:26:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-04 22:26:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-04 22:26:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-04 22:26:35 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-04 22:26:35 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-04 22:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-04 22:26:41 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-04 22:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-04 22:26:42 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap"), Input_Nama_Lengkap): Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-04 22:26:43 - [MESSAGE][PASSED] - Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-04 22:26:43 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email"), Input_Email): Text 'a8@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-04 22:26:45 - [MESSAGE][PASSED] - Text 'a8@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-04 22:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email"), Input_Password): Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-04 22:26:46 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-04 22:26:46 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-04 22:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-04 22:26:46 - [TEST_STEP][PASSED] - check(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ")): Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-04 22:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-04 22:26:47 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-04 22:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-04 22:26:47 - [TEST_STEP][PASSED] - if (Action == "sudah terdaftar"): Email Sudah terdaftar
+
+2021-11-04 22:26:47 - [TEST_STEP][PASSED] - comment("Email Sudah terdaftar"): Email Sudah terdaftar
+
+2021-11-04 22:26:47 - [MESSAGE][INFO] - Email Sudah terdaftar]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web SehatQ/Register" time="26.516" classname="Test Cases/Web SehatQ/Register" status="PASSED">
+         <system-out><![CDATA[2021-11-04 22:26:47 - [TEST_CASE][PASSED] - Test Cases/Web SehatQ/Register: Test Cases/Web SehatQ/Register
+
+2021-11-04 22:26:47 - [TEST_STEP][PASSED] - openBrowser("https://www.sehatq.com/"): Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-04 22:26:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-04 22:26:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-04 22:26:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-04 22:26:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.sehatq.com/'
+
+2021-11-04 22:26:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-04 22:26:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-04 22:26:53 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-04 22:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile' is clicked on
+
+2021-11-04 22:26:55 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-04 22:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar' is clicked on
+
+2021-11-04 22:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap"), Input_Nama_Lengkap): Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-04 22:26:58 - [MESSAGE][PASSED] - Text 'cobalagi' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap'
+
+2021-11-04 22:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email"), Input_Email): Text 'a30@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-04 22:27:00 - [MESSAGE][PASSED] - Text 'a30@mail.com' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email'
+
+2021-11-04 22:27:00 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email"), Input_Password): Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-04 22:27:01 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email'
+
+2021-11-04 22:27:01 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-04 22:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password' is clicked on
+
+2021-11-04 22:27:01 - [TEST_STEP][PASSED] - check(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ")): Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-04 22:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ' is checked
+
+2021-11-04 22:27:02 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-04 22:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar' is clicked on
+
+2021-11-04 22:27:03 - [TEST_STEP][PASSED] - if (Action == "sudah terdaftar"): null
+
+2021-11-04 22:27:03 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Log_Out' is clicked on
+
+2021-11-04 22:27:03 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Lewati")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Lewati' is clicked on
+
+2021-11-04 22:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Lewati' is clicked on
+
+2021-11-04 22:27:10 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile_Logout")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile_Logout' is clicked on
+
+2021-11-04 22:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile_Logout' is clicked on
+
+2021-11-04 22:27:13 - [TEST_STEP][PASSED] - click(findTestObject("OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Log_Out")): Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Log_Out' is clicked on
+
+2021-11-04 22:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Log_Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-04 22:26:25 - [TEST_SUITE][PASSED] - Register: Test Cases/Web SehatQ/Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

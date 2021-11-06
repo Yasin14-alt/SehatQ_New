@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Profile",
+      "brokenLocator": "//div[@id\u003d\u0027popover-profile\u0027]/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211103_180729/Web/Register_Login_Cart/20211103_180729/Object Repository/OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Profile_position.png"
+    }
+  ]
+}

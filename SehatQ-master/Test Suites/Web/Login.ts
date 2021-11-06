@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ed395446-ca16-4a17-8a47-ac75d1f6158a</testSuiteGuid>
+   <testCaseLink>
+      <guid>59f91455-3c7b-4565-b537-e1235d6ae9a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web SehatQ/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ea0d0f1c-abd2-44bd-b05c-d2dd7739d216</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Web/Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ea0d0f1c-abd2-44bd-b05c-d2dd7739d216</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>13440a93-2afc-4aad-822e-77d730726afb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ea0d0f1c-abd2-44bd-b05c-d2dd7739d216</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>ac2c9d62-b56a-4740-972b-a7d55330d4e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ea0d0f1c-abd2-44bd-b05c-d2dd7739d216</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Action</value>
+         <variableId>cb2039c7-428d-4139-94bd-6f4639a0dbff</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

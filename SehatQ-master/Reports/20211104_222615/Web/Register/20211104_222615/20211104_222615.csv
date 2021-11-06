@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 95.0.4638.69,,,2021-11-04 22:26:25,2021-11-04 22:27:14,48.352s,PASSED
+,,,,,,,
+Test Cases/Web SehatQ/Register,Chrome 95.0.4638.69,,,2021-11-04 22:26:26,2021-11-04 22:26:47,21.395s,PASSED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-04 22:26:26,2021-11-04 22:26:33,7.114s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-04 22:26:33,2021-11-04 22:26:35,1.066s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:35,2021-11-04 22:26:41,6.073s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:41,2021-11-04 22:26:42,1.143s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap""), Input_Nama_Lengkap)",Chrome 95.0.4638.69,,,2021-11-04 22:26:42,2021-11-04 22:26:43,1.204s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email""), Input_Email)",Chrome 95.0.4638.69,,,2021-11-04 22:26:43,2021-11-04 22:26:45,1.575s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email""), Input_Password)",Chrome 95.0.4638.69,,,2021-11-04 22:26:45,2021-11-04 22:26:46,1.019s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:46,2021-11-04 22:26:46,0.585s,PASSED
+"check(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:46,2021-11-04 22:26:47,0.475s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:47,2021-11-04 22:26:47,0.582s,PASSED
+"if (Action == ""sudah terdaftar"")",Chrome 95.0.4638.69,,,2021-11-04 22:26:47,2021-11-04 22:26:47,0.020s,PASSED
+,,,,,,,
+Test Cases/Web SehatQ/Register,Chrome 95.0.4638.69,,,2021-11-04 22:26:47,2021-11-04 22:27:14,26.516s,PASSED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-04 22:26:47,2021-11-04 22:26:51,3.696s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-04 22:26:51,2021-11-04 22:26:53,1.923s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:53,2021-11-04 22:26:55,2.382s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Daftar""))",Chrome 95.0.4638.69,,,2021-11-04 22:26:55,2021-11-04 22:26:56,1.092s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Nama_Lengkap""), Input_Nama_Lengkap)",Chrome 95.0.4638.69,,,2021-11-04 22:26:56,2021-11-04 22:26:58,1.118s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email""), Input_Email)",Chrome 95.0.4638.69,,,2021-11-04 22:26:58,2021-11-04 22:27:00,2.341s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Email""), Input_Password)",Chrome 95.0.4638.69,,,2021-11-04 22:27:00,2021-11-04 22:27:01,1.068s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/View_Password""))",Chrome 95.0.4638.69,,,2021-11-04 22:27:01,2021-11-04 22:27:01,0.546s,PASSED
+"check(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Click_Saya menyetujui Ketentuan dan Kebijakan Privasi di SehatQ""))",Chrome 95.0.4638.69,,,2021-11-04 22:27:01,2021-11-04 22:27:02,0.569s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Button_Daftar""))",Chrome 95.0.4638.69,,,2021-11-04 22:27:02,2021-11-04 22:27:03,0.541s,PASSED
+"if (Action == ""sudah terdaftar"")",Chrome 95.0.4638.69,,,2021-11-04 22:27:03,2021-11-04 22:27:03,0.001s,PASSED
+else,Chrome 95.0.4638.69,,,2021-11-04 22:27:03,2021-11-04 22:27:14,11.221s,PASSED

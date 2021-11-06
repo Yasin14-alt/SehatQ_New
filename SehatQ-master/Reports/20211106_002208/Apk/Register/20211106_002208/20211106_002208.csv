@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-11-06 00:22:19,2021-11-06 00:22:44,25.097s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 00:22:19,2021-11-06 00:22:33,13.965s,FAILED
+"startExistingApplication("""", STOP_ON_FAILURE)",,,,2021-11-06 00:22:20,2021-11-06 00:22:33,13.647s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 00:22:33,2021-11-06 00:22:44,10.781s,FAILED
+"startExistingApplication("""", STOP_ON_FAILURE)",,,,2021-11-06 00:22:33,2021-11-06 00:22:44,10.759s,FAILED

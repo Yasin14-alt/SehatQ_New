@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-03 21:20:32,2021-11-03 21:21:25,52.398s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-03 21:21:22,2021-11-03 21:21:25,3.262s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-03 21:21:22,2021-11-03 21:21:25,3.211s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 21:21:25,2021-11-03 21:21:25,0.022s,FAILED

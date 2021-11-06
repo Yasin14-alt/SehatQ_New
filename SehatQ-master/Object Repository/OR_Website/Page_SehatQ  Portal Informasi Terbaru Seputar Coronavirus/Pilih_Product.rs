@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih_Product</name>
+   <tag></tag>
+   <elementGuidId>75781341-0096-4002-9305-7460ab1c505a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slick-slide.slick-active.slick-current > div > div.sc-bdvvtL.koByAs > div.sc-bdvvtL.bBALAK > a.sc-iCfMLu.sc-crHmcD.geQZCX.gTJkbi > div.sc-bdvvtL.koByAs > picture.sc-eJwWfJ.djoYBO > img.sc-kDTinF.dhNXjp.sc-nVkyK.ieMhbh</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[5]/div/div/div/a/div/picture/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Jamieson Vitamin C Plus 500 mg Chewable Orange (Botol @ 120 Tablet) - 2 Botol</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://static.sehatq.com/cdn-cgi/image/onerror=redirect/tokoq/products/variants/bnbglh89oywohp725act9p5xlswt/16135febf8ba6fdffeb50829c0b09f2f649c659f27f200cfdab438675c11b99c</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-kDTinF dhNXjp sc-nVkyK ieMhbh</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;sc-bdvvtL koByAs&quot;]/div[@class=&quot;sc-hBUSln dychiV&quot;]/div[@class=&quot;sc-bdvvtL koByAs&quot;]/div[@class=&quot;sc-giYglK gEhSeO&quot;]/div[@class=&quot;sc-ksdxgE diQgLw&quot;]/div[@class=&quot;sc-bdvvtL eIMEOA&quot;]/div[@class=&quot;sc-bdvvtL vZjzq&quot;]/div[@class=&quot;slick-slider sc-gsNilK WMcWv product-slider-desktop slick-initialized&quot;]/div[@class=&quot;slick-list&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-active slick-current&quot;]/div[1]/div[@class=&quot;sc-bdvvtL koByAs&quot;]/div[@class=&quot;sc-bdvvtL bBALAK&quot;]/a[@class=&quot;sc-iCfMLu sc-crHmcD geQZCX gTJkbi&quot;]/div[@class=&quot;sc-bdvvtL koByAs&quot;]/picture[@class=&quot;sc-eJwWfJ djoYBO&quot;]/img[@class=&quot;sc-kDTinF dhNXjp sc-nVkyK ieMhbh&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[5]/div/div/div/a/div/picture/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Jamieson Vitamin C Plus 500 mg Chewable Orange (Botol @ 120 Tablet) - 2 Botol']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/a/div/picture/img</value>
+   </webElementXpaths>
+</WebElementEntity>

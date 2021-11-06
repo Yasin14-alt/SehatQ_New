@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart,Chrome 95.0.4638.69,,,2021-11-05 00:06:37,2021-11-05 00:07:15,38.529s,PASSED
+,,,,,,,
+Test Cases/Web SehatQ/Cart,Chrome 95.0.4638.69,,,2021-11-05 00:06:37,2021-11-05 00:07:15,38.188s,PASSED
+"callTestCase(findTestCase(""Web SehatQ/Setup""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 00:06:38,2021-11-05 00:06:42,4.741s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-05 00:06:42,2021-11-05 00:06:47,4.821s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email_Login""), Email)",Chrome 95.0.4638.69,,,2021-11-05 00:06:47,2021-11-05 00:06:49,1.898s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Login""), Password)",Chrome 95.0.4638.69,,,2021-11-05 00:06:49,2021-11-05 00:06:51,2.198s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Login""))",Chrome 95.0.4638.69,,,2021-11-05 00:06:51,2021-11-05 00:06:52,0.554s,PASSED
+"waitForElementPresent(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Select_Cart""), 3)",Chrome 95.0.4638.69,,,2021-11-05 00:06:52,2021-11-05 00:06:57,4.950s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Select_Cart""))",Chrome 95.0.4638.69,,,2021-11-05 00:06:57,2021-11-05 00:06:59,1.855s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Belanja Sekarang""))",Chrome 95.0.4638.69,,,2021-11-05 00:06:59,2021-11-05 00:07:03,4.392s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Select_Jenis_Product""))",Chrome 95.0.4638.69,,,2021-11-05 00:07:03,2021-11-05 00:07:08,4.892s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Pilih_Product""))",Chrome 95.0.4638.69,,,2021-11-05 00:07:08,2021-11-05 00:07:10,1.826s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Keranjang""))",Chrome 95.0.4638.69,,,2021-11-05 00:07:10,2021-11-05 00:07:12,2.714s,PASSED
+delay(3),Chrome 95.0.4638.69,,,2021-11-05 00:07:12,2021-11-05 00:07:15,3.021s,PASSED

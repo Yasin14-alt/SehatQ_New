@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart,,,,2021-11-06 09:27:03,2021-11-06 09:28:07,1m - 4.016s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Cart,,,,2021-11-06 09:27:04,2021-11-06 09:28:07,1m - 3.672s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-06 09:27:04,2021-11-06 09:27:18,13.779s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 0)",,,,2021-11-06 09:27:18,2021-11-06 09:27:22,4.788s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 0)",,,,2021-11-06 09:27:22,2021-11-06 09:27:24,1.075s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 0)",,,,2021-11-06 09:27:24,2021-11-06 09:27:26,2.733s,PASSED
+"setText(findTestObject(""OR APK/Password_Login""), password, 0)",,,,2021-11-06 09:27:26,2021-11-06 09:27:28,1.765s,PASSED
+"tap(findTestObject(""OR APK/Button_Login""), 0)",,,,2021-11-06 09:27:28,2021-11-06 09:27:29,0.900s,PASSED
+"tap(findTestObject(""OR APK/Klik_Lewati_after_Login""), 0)",,,,2021-11-06 09:27:29,2021-11-06 09:27:32,3.365s,PASSED
+"tap(findTestObject(""OR APK/Yakin_Lewati_Pendaftaran_Ya""), 0)",,,,2021-11-06 09:27:32,2021-11-06 09:27:33,0.893s,PASSED
+"tap(findTestObject(""OR APK/Klik_Back_from_Profile""), 0)",,,,2021-11-06 09:27:33,2021-11-06 09:27:35,1.982s,PASSED
+"tap(findTestObject(""OR APK/Cart""), 0)",,,,2021-11-06 09:27:35,2021-11-06 09:27:35,0.002s,NOT_RUN
+"tap(findTestObject(""OR APK/Klik_Belanja_Sekarang""), 0)",,,,2021-11-06 09:27:35,2021-11-06 09:27:35,0.001s,NOT_RUN
+"tap(findTestObject(""OR APK/Semua_Kategori""), 0)",,,,2021-11-06 09:27:35,2021-11-06 09:28:07,32.078s,FAILED

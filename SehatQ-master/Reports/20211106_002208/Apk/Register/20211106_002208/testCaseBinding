@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/APK SehatQ/Register - Iteration 1","testCaseId":"Test Cases/APK SehatQ/Register","bindedValues":{"Action":"\u0027sudah terdaftar\u0027","Input_Email":"\u0027a2@mail.com\u0027","Input_Password":"\u0027123456\u0027","Nama_Lengkap":"\u0027coba\u0027"}}
+{"testCaseName":"Test Cases/APK SehatQ/Register - Iteration 2","testCaseId":"Test Cases/APK SehatQ/Register","bindedValues":{"Action":"\u0027belum terdaftar\u0027","Input_Email":"\u0027a222@mail.com\u0027","Input_Password":"\u0027123456\u0027","Nama_Lengkap":"\u0027coba\u0027"}}

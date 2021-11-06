@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-05 23:27:31,2021-11-05 23:28:29,57.552s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:27:32,2021-11-05 23:27:48,16.486s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:27:32,2021-11-05 23:27:45,13.049s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:27:45,2021-11-05 23:27:48,3.064s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:27:48,2021-11-05 23:28:02,13.542s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:27:48,2021-11-05 23:27:59,10.681s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:27:59,2021-11-05 23:28:02,2.847s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:28:02,2021-11-05 23:28:15,13.479s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:28:02,2021-11-05 23:28:12,10.461s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:28:12,2021-11-05 23:28:15,3.005s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:28:15,2021-11-05 23:28:29,13.527s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:28:15,2021-11-05 23:28:25,9.961s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:28:25,2021-11-05 23:28:29,3.556s,FAILED

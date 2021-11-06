@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="25.795" tests="2" failures="2" errors="0">
+   <testsuite name="Register" tests="2" failures="2" errors="0" time="25.795" skipped="0" timestamp="2021-11-06 00:22:19" hostname="muhammadyaasin - localhost" id="Test Suites/Apk/Register">
+      <properties>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_002208/Apk/Register/20211106_002208"/>
+         <property name="logFiles" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_002208/Apk/Register/20211106_002208/execution0.log, /Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_002208/Apk/Register/20211106_002208/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadyaasin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="V2022"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="vivo"/>
+         <property name="deviceId" value="db3027ce"/>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/APK SehatQ/Register" time="13.965" classname="Test Cases/APK SehatQ/Register" status="FAILED">
+         <failure type="FAILED" message="Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: &quot;-p&quot;
+ arg: &quot;-c&quot;
+ arg: &quot;android.intent.category.LAUNCHER&quot;
+ arg: &quot;1&quot;
+data=&quot;-c&quot;
+** Error: Count is not a number: &quot;android.intent.category.LAUNCHER&quot;
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: &quot;-p&quot;
+ arg: &quot;-c&quot;
+ arg: &quot;android.intent.category.LAUNCHER&quot;
+ arg: &quot;1&quot;
+data=&quot;-c&quot;
+** Error: Count is not a number: &quot;android.intent.category.LAUNCHER&quot;
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-11-06 00:22:19 - [TEST_CASE][FAILED] - Test Cases/APK SehatQ/Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+
+
+2021-11-06 00:22:20 - [TEST_STEP][FAILED] - startExistingApplication("", STOP_ON_FAILURE): Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+
+2021-11-06 00:22:22 - [MESSAGE][INFO] - Appium server started on port 59,325
+
+2021-11-06 00:22:33 - [MESSAGE][FAILED] - Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2021-11-06 00:22:19 - [TEST_CASE][FAILED] - Test Cases/APK SehatQ/Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APK SehatQ/Register" time="10.781" classname="Test Cases/APK SehatQ/Register" status="FAILED">
+         <failure type="FAILED" message="Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: &quot;-p&quot;
+ arg: &quot;-c&quot;
+ arg: &quot;android.intent.category.LAUNCHER&quot;
+ arg: &quot;1&quot;
+data=&quot;-c&quot;
+** Error: Count is not a number: &quot;android.intent.category.LAUNCHER&quot;
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: &quot;-p&quot;
+ arg: &quot;-c&quot;
+ arg: &quot;android.intent.category.LAUNCHER&quot;
+ arg: &quot;1&quot;
+data=&quot;-c&quot;
+** Error: Count is not a number: &quot;android.intent.category.LAUNCHER&quot;
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-11-06 00:22:33 - [TEST_CASE][FAILED] - Test Cases/APK SehatQ/Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+
+
+2021-11-06 00:22:33 - [TEST_STEP][FAILED] - startExistingApplication("", STOP_ON_FAILURE): Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+
+2021-11-06 00:22:44 - [MESSAGE][FAILED] - Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2021-11-06 00:22:33 - [TEST_CASE][FAILED] - Test Cases/APK SehatQ/Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8264, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8264, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 90ef16c8-1b98-49b9-89b4-0f5a04bb90c6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-06 00:22:19 - [TEST_SUITE][FAILED] - Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2021-11-06 00:22:19 - [TEST_SUITE][FAILED] - Register: Test Cases/APK SehatQ/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: '' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Register.run(Register:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1636132928337.run(TempTestSuite1636132928337.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate ''. Original error: Error executing adbExec. Original error: 'Command '/Users/muhammadyaasin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s db3027ce shell monkey -p  -c android.intent.category.LAUNCHER 1' exited with code 255'; Stderr: 'args: [-p, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="-c"
+** Error: Count is not a number: "android.intent.category.LAUNCHER"
+usage: monkey [-p ALLOWED_PACKAGE [-p ALLOWED_PACKAGE] ...]
+              [-c MAIN_CATEGORY [-c MAIN_CATEGORY] ...]
+              [--ignore-crashes] [--ignore-timeouts]
+              [--ignore-security-exceptions]
+              [--monitor-native-crashes] [--ignore-native-crashes]
+              [--kill-process-after-error] [--hprof]
+              [--match-description TEXT]
+              [--pct-touch PERCENT] [--pct-motion PERCENT]
+              [--pct-trackball PERCENT] [--pct-syskeys PERCENT]
+              [--pct-nav PERCENT] [--pct-majornav PERCENT]
+              [--pct-appswitch PERCENT] [--pct-flip PERCENT]
+              [--pct-anyevent PERCENT] [--pct-pinchzoom PERCENT]
+              [--pct-permission PERCENT]
+              [--pkg-blacklist-file PACKAGE_BLACKLIST_FILE]
+              [--pkg-whitelist-file PACKAGE_WHITELIST_FILE]
+              [--wait-dbg] [--dbg-no-events]
+              [--setup scriptfile] [-f scriptfile [-f scriptfile] ...]
+              [--port port]
+              [-s SEED] [-v [-v] ...]
+              [--throttle MILLISEC] [--randomize-throttle]
+              [--profile-wait MILLISEC]
+              [--device-sleep-time MILLISEC]
+              [--randomize-script]
+              [--script-log]
+              [--bugreport]
+              [--periodic-bugreport]
+              [--permission-target-system]
+              COUNT'; Code: '255'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZCTJKTN2100001.local', ip: 'fe80:0:0:0:18b0:b409:8ad6:672%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 59330, deviceName: vivo V2022 (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8237, udid: db3027ce}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: V2022, deviceName: db3027ce, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: db3027ce, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 77, systemPort: 8237, takesScreenshot: true, udid: db3027ce, viewportRect: {height: 2131, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32df1387-8bb9-4409-8a31-b2b0b1403623
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:165)
+	at io.appium.java_client.InteractsWithApps.activateApp(InteractsWithApps.java:149)
+	at io.appium.java_client.InteractsWithApps$activateApp.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

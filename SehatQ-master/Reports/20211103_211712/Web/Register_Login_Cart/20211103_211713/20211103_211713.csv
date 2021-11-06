@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-03 21:17:26,2021-11-03 21:17:41,14.916s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-03 21:17:35,2021-11-03 21:17:41,6.214s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-03 21:17:35,2021-11-03 21:17:39,4.167s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 21:17:39,2021-11-03 21:17:39,0.154s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/Click_Profile""))",Chrome 95.0.4638.69,,,2021-11-03 21:17:39,2021-11-03 21:17:41,1.868s,FAILED

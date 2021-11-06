@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3471b2a0-5fc1-4caf-ba2d-87f600bd31a9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>970851fe-d7a4-4f2f-80ea-53f99a371377</id>
+      <masked>false</masked>
+      <name>Input_Nama_Lengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08b8ec41-9a1b-43e1-a3a0-cfbb427e8753</id>
+      <masked>false</masked>
+      <name>Input_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29e7c2d6-d512-4755-8ac7-d3c96ffb6b03</id>
+      <masked>false</masked>
+      <name>Input_Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acbe98fd-65ed-4e91-b713-d46eeb433d28</id>
+      <masked>false</masked>
+      <name>Action</name>
+   </variable>
+</TestCaseEntity>

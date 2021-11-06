@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-05 23:14:34,2021-11-05 23:14:52,18.315s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:14:35,2021-11-05 23:14:52,17.645s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:14:35,2021-11-05 23:14:49,13.787s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:14:49,2021-11-05 23:14:52,3.244s,FAILED

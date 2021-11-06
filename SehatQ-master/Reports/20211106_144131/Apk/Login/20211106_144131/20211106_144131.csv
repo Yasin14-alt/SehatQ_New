@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-06 14:41:42,2021-11-06 14:46:45,5m - 3.261s,PASSED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-06 14:41:42,2021-11-06 14:43:15,1m - 33.425s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-06 14:41:42,2021-11-06 14:41:56,13.255s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Aktifkan_Lokasimu""), 10))",,,,2021-11-06 14:41:56,2021-11-06 14:42:36,40.226s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Logo_Login""), 30))",,,,2021-11-06 14:42:36,2021-11-06 14:42:36,0.000s,PASSED
+else,,,,2021-11-06 14:42:36,2021-11-06 14:42:37,0.653s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 20)",,,,2021-11-06 14:42:37,2021-11-06 14:42:39,2.865s,PASSED
+"setText(findTestObject(""OR APK/Password_Login""), password, 10)",,,,2021-11-06 14:42:39,2021-11-06 14:42:41,1.677s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Button_Login""), 30))",,,,2021-11-06 14:42:41,2021-11-06 14:42:42,1.047s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Email_atau_Password_salah""), 30))",,,,2021-11-06 14:42:42,2021-11-06 14:43:12,30.328s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Email_harus_diisi_dengan_benar""), 30))",,,,2021-11-06 14:43:12,2021-11-06 14:43:15,2.538s,PASSED
+closeApplication(),,,,2021-11-06 14:43:15,2021-11-06 14:43:15,0.519s,PASSED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-06 14:43:16,2021-11-06 14:44:44,1m - 28.275s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-06 14:43:16,2021-11-06 14:43:26,10.729s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Aktifkan_Lokasimu""), 10))",,,,2021-11-06 14:43:26,2021-11-06 14:43:37,10.316s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Logo_Login""), 30))",,,,2021-11-06 14:43:37,2021-11-06 14:43:37,0.439s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 20)",,,,2021-11-06 14:43:37,2021-11-06 14:43:38,1.372s,PASSED
+"setText(findTestObject(""OR APK/Password_Login""), password, 10)",,,,2021-11-06 14:43:38,2021-11-06 14:43:40,1.713s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Button_Login""), 30))",,,,2021-11-06 14:43:40,2021-11-06 14:44:10,30.140s,PASSED
+else,,,,2021-11-06 14:44:10,2021-11-06 14:44:11,0.428s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Email_atau_Password_salah""), 30))",,,,2021-11-06 14:44:11,2021-11-06 14:44:41,30.283s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Email_harus_diisi_dengan_benar""), 30))",,,,2021-11-06 14:44:41,2021-11-06 14:44:43,2.498s,PASSED
+closeApplication(),,,,2021-11-06 14:44:43,2021-11-06 14:44:44,0.343s,PASSED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-06 14:44:44,2021-11-06 14:46:45,2m - 1.194s,PASSED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-06 14:44:44,2021-11-06 14:44:54,10.642s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Aktifkan_Lokasimu""), 10))",,,,2021-11-06 14:44:54,2021-11-06 14:45:05,10.287s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Logo_Login""), 30))",,,,2021-11-06 14:45:05,2021-11-06 14:45:06,0.981s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 20)",,,,2021-11-06 14:45:06,2021-11-06 14:45:07,1.310s,PASSED
+"setText(findTestObject(""OR APK/Password_Login""), password, 10)",,,,2021-11-06 14:45:07,2021-11-06 14:45:09,1.719s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Button_Login""), 30))",,,,2021-11-06 14:45:09,2021-11-06 14:45:39,30.115s,PASSED
+else,,,,2021-11-06 14:45:39,2021-11-06 14:45:39,0.431s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Email_atau_Password_salah""), 30))",,,,2021-11-06 14:45:39,2021-11-06 14:46:40,1m - 0.188s,PASSED
+"else if (waitForElementPresent(findTestObject(""OR APK/Email_harus_diisi_dengan_benar""), 30))",,,,2021-11-06 14:46:40,2021-11-06 14:46:40,0.000s,PASSED
+else,,,,2021-11-06 14:46:40,2021-11-06 14:46:45,5.186s,PASSED
+closeApplication(),,,,2021-11-06 14:46:45,2021-11-06 14:46:45,0.322s,PASSED

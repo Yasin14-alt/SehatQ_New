@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-06 00:41:20,2021-11-06 00:41:51,30.665s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Login,,,,2021-11-06 00:41:21,2021-11-06 00:41:32,11.932s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",,,,2021-11-06 00:41:21,2021-11-06 00:41:32,11.617s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Login,,,,2021-11-06 00:41:33,2021-11-06 00:41:39,6.215s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",,,,2021-11-06 00:41:33,2021-11-06 00:41:39,6.194s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Login,,,,2021-11-06 00:41:39,2021-11-06 00:41:45,5.994s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",,,,2021-11-06 00:41:39,2021-11-06 00:41:45,5.983s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Login,,,,2021-11-06 00:41:45,2021-11-06 00:41:51,6.081s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",,,,2021-11-06 00:41:45,2021-11-06 00:41:51,6.068s,FAILED

@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/APK SehatQ/Login - Iteration 1","testCaseId":"Test Cases/APK SehatQ/Login","bindedValues":{"password":"\u0027123476\u0027","Action":"\u0027Email Salah\u0027","email":"\u0027a@mail.com\u0027"}}
+{"testCaseName":"Test Cases/APK SehatQ/Login - Iteration 2","testCaseId":"Test Cases/APK SehatQ/Login","bindedValues":{"password":"\u0027238743847\u0027","Action":"\u0027Password Salah\u0027","email":"\u0027aj@mail.com\u0027"}}
+{"testCaseName":"Test Cases/APK SehatQ/Login - Iteration 3","testCaseId":"Test Cases/APK SehatQ/Login","bindedValues":{"password":"\u002787838473\u0027","Action":"\u0027Email Belum Terdaftar\u0027","email":"\u0027a7@mail.com\u0027"}}
+{"testCaseName":"Test Cases/APK SehatQ/Login - Iteration 4","testCaseId":"Test Cases/APK SehatQ/Login","bindedValues":{"password":"\u0027123456\u0027","Action":"\u0027Sukses\u0027","email":"\u0027a2@mail.com\u0027"}}

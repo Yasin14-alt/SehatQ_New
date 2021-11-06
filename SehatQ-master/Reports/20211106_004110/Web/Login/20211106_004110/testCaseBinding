@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Web SehatQ/Login - Iteration 1","testCaseId":"Test Cases/Web SehatQ/Login","bindedValues":{"Action":"\u0027Gagal\u0027","Email":"\u0027a2@mail.com\u0027","Password":"\u0027123564\u0027"}}
+{"testCaseName":"Test Cases/Web SehatQ/Login - Iteration 2","testCaseId":"Test Cases/Web SehatQ/Login","bindedValues":{"Action":"\u0027Gagal\u0027","Email":"\u0027a@mail.com\u0027","Password":"\u0027123456\u0027"}}
+{"testCaseName":"Test Cases/Web SehatQ/Login - Iteration 3","testCaseId":"Test Cases/Web SehatQ/Login","bindedValues":{"Action":"\u0027Gagal\u0027","Email":"\u0027a25@mail.com\u0027","Password":"\u0027123456\u0027"}}
+{"testCaseName":"Test Cases/Web SehatQ/Login - Iteration 4","testCaseId":"Test Cases/Web SehatQ/Login","bindedValues":{"Action":"\u0027Berhasil\u0027","Email":"\u0027a2@mail.com\u0027","Password":"\u0027123456\u0027"}}

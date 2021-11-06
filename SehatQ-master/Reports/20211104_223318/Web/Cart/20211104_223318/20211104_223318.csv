@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart,,,,2021-11-04 22:33:28,2021-11-04 22:33:29,0.937s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Cart,,,,2021-11-04 22:33:28,2021-11-04 22:33:29,0.611s,FAILED
+acceptAlert(),,,,2021-11-04 22:33:29,2021-11-04 22:33:29,0.255s,FAILED

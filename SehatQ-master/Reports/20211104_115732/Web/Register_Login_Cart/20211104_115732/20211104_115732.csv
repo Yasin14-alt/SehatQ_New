@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-04 11:57:42,2021-11-04 11:59:36,1m - 53.472s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-04 11:57:43,2021-11-04 11:58:05,22.806s,PASSED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-04 11:57:43,2021-11-04 11:57:47,4.328s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-04 11:57:47,2021-11-04 11:57:47,0.200s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-04 11:57:47,2021-11-04 11:57:52,4.936s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email_Login""), Input_Email_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:57:52,2021-11-04 11:57:54,1.813s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Login""), Input_Password_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:57:54,2021-11-04 11:57:56,2.136s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Login""))",Chrome 95.0.4638.69,,,2021-11-04 11:57:56,2021-11-04 11:57:57,0.579s,PASSED
+"if (Action == ""gagal"")",Chrome 95.0.4638.69,,,2021-11-04 11:57:57,2021-11-04 11:58:05,8.415s,PASSED
+,,,,,,,
+Test Cases/Web SehatQ/Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-04 11:58:05,2021-11-04 11:58:51,45.841s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-04 11:58:05,2021-11-04 11:58:09,3.344s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-04 11:58:09,2021-11-04 11:58:09,0.185s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-04 11:58:09,2021-11-04 11:58:14,5.359s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email_Login""), Input_Email_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:58:14,2021-11-04 11:58:16,1.946s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Login""), Input_Password_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:58:16,2021-11-04 11:58:18,2.134s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Login""))",Chrome 95.0.4638.69,,,2021-11-04 11:58:18,2021-11-04 11:58:19,0.509s,PASSED
+"if (Action == ""gagal"")",Chrome 95.0.4638.69,,,2021-11-04 11:58:19,2021-11-04 11:58:19,0.001s,PASSED
+"else if (Action == ""sudah terdaftar"")",Chrome 95.0.4638.69,,,2021-11-04 11:58:19,2021-11-04 11:58:51,32.337s,FAILED
+,,,,,,,
+Test Cases/Web SehatQ/Register_Login_Cart,Chrome 95.0.4638.69,,,2021-11-04 11:58:51,2021-11-04 11:59:36,44.348s,FAILED
+"openBrowser(""https://www.sehatq.com/"")",Chrome 95.0.4638.69,,,2021-11-04 11:58:51,2021-11-04 11:58:56,4.527s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-04 11:58:56,2021-11-04 11:58:57,1.456s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Klik_Profile""))",Chrome 95.0.4638.69,,,2021-11-04 11:58:57,2021-11-04 11:58:59,1.992s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Email_Login""), Input_Email_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:58:59,2021-11-04 11:59:02,2.253s,PASSED
+"setText(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/Input_Password_Login""), Input_Password_Login)",Chrome 95.0.4638.69,,,2021-11-04 11:59:02,2021-11-04 11:59:03,1.934s,PASSED
+"click(findTestObject(""OR_Website/Page_SehatQ  Portal Informasi Terbaru Seputar Coronavirus/button_Login""))",Chrome 95.0.4638.69,,,2021-11-04 11:59:03,2021-11-04 11:59:04,0.566s,PASSED
+"if (Action == ""gagal"")",Chrome 95.0.4638.69,,,2021-11-04 11:59:04,2021-11-04 11:59:04,0.000s,PASSED
+"else if (Action == ""sudah terdaftar"")",Chrome 95.0.4638.69,,,2021-11-04 11:59:04,2021-11-04 11:59:04,0.001s,PASSED
+"else if (Action == ""belum terdaftar"")",Chrome 95.0.4638.69,,,2021-11-04 11:59:04,2021-11-04 11:59:36,31.600s,FAILED

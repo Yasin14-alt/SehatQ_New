@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cart" time="56.901" tests="1" failures="0" errors="0">
+   <testsuite name="Cart" tests="1" failures="0" errors="0" time="56.901" skipped="0" timestamp="2021-11-06 09:52:58" hostname="muhammadyaasin - localhost" id="Test Suites/Apk/Cart">
+      <properties>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_095249/Apk/Cart/20211106_095249"/>
+         <property name="logFiles" value="/Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_095249/Apk/Cart/20211106_095249/execution0.log, /Users/muhammadyaasin/Katalon Studio/SehatQ/Reports/20211106_095249/Apk/Cart/20211106_095249/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadyaasin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="V2022"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="vivo"/>
+         <property name="deviceId" value="db3027ce"/>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/APK SehatQ/Cart" time="55.68" classname="Test Cases/APK SehatQ/Cart" status="PASSED">
+         <system-out><![CDATA[2021-11-06 09:52:59 - [TEST_CASE][PASSED] - Test Cases/APK SehatQ/Cart: Test Cases/APK SehatQ/Cart
+
+2021-11-06 09:52:59 - [TEST_STEP][PASSED] - startExistingApplication("com.she.sehatq"): Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 09:53:01 - [MESSAGE][INFO] - Appium server started on port 58,179
+
+2021-11-06 09:53:13 - [MESSAGE][PASSED] - Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 09:53:13 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Aktifkan_Lokasi_Tidak"), 20): Tapped on element 'Object Repository/OR APK/Aktifkan_Lokasi_Tidak'
+
+2021-11-06 09:53:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Aktifkan_Lokasi_Tidak'
+
+2021-11-06 09:53:17 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Profile"), 20): Tapped on element 'Object Repository/OR APK/Klik_Profile'
+
+2021-11-06 09:53:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Profile'
+
+2021-11-06 09:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Email_Login"), email, 20): Text 'a2@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 09:53:22 - [MESSAGE][PASSED] - Text 'a2@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 09:53:22 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Password_Login"), password, 20): Text '123456' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 09:53:23 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 09:53:23 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Button_Login"), 20): Tapped on element 'Object Repository/OR APK/Button_Login'
+
+2021-11-06 09:53:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Button_Login'
+
+2021-11-06 09:53:24 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Lewati_after_Login"), 20): Tapped on element 'Object Repository/OR APK/Klik_Lewati_after_Login'
+
+2021-11-06 09:53:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Lewati_after_Login'
+
+2021-11-06 09:53:27 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Yakin_Lewati_Pendaftaran_Ya"), 20): Tapped on element 'Object Repository/OR APK/Yakin_Lewati_Pendaftaran_Ya'
+
+2021-11-06 09:53:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Yakin_Lewati_Pendaftaran_Ya'
+
+2021-11-06 09:53:28 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Back_from_Profile"), 20): Tapped on element 'Object Repository/OR APK/Klik_Back_from_Profile'
+
+2021-11-06 09:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Back_from_Profile'
+
+2021-11-06 09:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Cart"), 20): Tapped on element 'Object Repository/OR APK/Cart'
+
+2021-11-06 09:53:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Cart'
+
+2021-11-06 09:53:32 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Belanja_Sekarang"), 20): Tapped on element 'Object Repository/OR APK/Klik_Belanja_Sekarang'
+
+2021-11-06 09:53:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Belanja_Sekarang'
+
+2021-11-06 09:53:34 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Image_Toko"), 20): Tapped on element 'Object Repository/OR APK/Image_Toko'
+
+2021-11-06 09:53:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Image_Toko'
+
+2021-11-06 09:53:37 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Semua_Kategori"), 20): Tapped on element 'Object Repository/OR APK/Semua_Kategori'
+
+2021-11-06 09:53:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Semua_Kategori'
+
+2021-11-06 09:53:38 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2021-11-06 09:53:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-06 09:53:40 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Product_Obat"), 20): Tapped on element 'Object Repository/OR APK/Klik_Product_Obat'
+
+2021-11-06 09:53:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Product_Obat'
+
+2021-11-06 09:53:41 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Promag_Double"), 20): Tapped on element 'Object Repository/OR APK/Promag_Double'
+
+2021-11-06 09:53:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Promag_Double'
+
+2021-11-06 09:53:43 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Plus_Keranjang"), 20): Tapped on element 'Object Repository/OR APK/Plus_Keranjang'
+
+2021-11-06 09:53:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Plus_Keranjang'
+
+2021-11-06 09:53:46 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/android.widget.ImageView_Apotek Fakhira"), 20): Tapped on element 'Object Repository/OR APK/android.widget.ImageView_Apotek Fakhira'
+
+2021-11-06 09:53:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/android.widget.ImageView_Apotek Fakhira'
+
+2021-11-06 09:53:47 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/android.widget.Button - Tambah ke Keranjang"), 20): Tapped on element 'Object Repository/OR APK/android.widget.Button - Tambah ke Keranjang'
+
+2021-11-06 09:53:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/android.widget.Button - Tambah ke Keranjang'
+
+2021-11-06 09:53:48 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Lihat_Keranjang"), 20): Tapped on element 'Object Repository/OR APK/Klik_Lihat_Keranjang'
+
+2021-11-06 09:53:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Lihat_Keranjang'
+
+2021-11-06 09:53:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OR APK/Has_been_cart"), 20): Element 'Object Repository/OR APK/Has_been_cart' is present
+
+2021-11-06 09:53:54 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Has_been_cart' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-06 09:52:58 - [TEST_SUITE][PASSED] - Cart: Test Cases/APK SehatQ/Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

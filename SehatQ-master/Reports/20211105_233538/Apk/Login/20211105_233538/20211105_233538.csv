@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2021-11-05 23:35:48,2021-11-05 23:37:13,1m - 25.257s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:35:48,2021-11-05 23:36:06,17.878s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:35:48,2021-11-05 23:36:03,14.091s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:36:03,2021-11-05 23:36:06,3.501s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:36:06,2021-11-05 23:36:57,51.202s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:36:06,2021-11-05 23:36:18,11.492s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:36:18,2021-11-05 23:36:19,1.021s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 0)",,,,2021-11-05 23:36:19,2021-11-05 23:36:20,1.024s,PASSED
+"setText(findTestObject(""OR APK/Email_Login""), email, 0)",,,,2021-11-05 23:36:20,2021-11-05 23:36:22,2.209s,PASSED
+"setText(findTestObject(""OR APK/Password_Login""), password, 0)",,,,2021-11-05 23:36:22,2021-11-05 23:36:23,1.280s,PASSED
+"tap(findTestObject(""OR APK/Button_Login""), 0)",,,,2021-11-05 23:36:23,2021-11-05 23:36:24,0.991s,PASSED
+"tap(findTestObject(""OR APK/Klik_ok_gagal_login""), 0)",,,,2021-11-05 23:36:24,2021-11-05 23:36:25,1.167s,PASSED
+"if (Action == ""Email Salah"")",,,,2021-11-05 23:36:25,2021-11-05 23:36:25,0.001s,PASSED
+"else if (Action == ""Password Salah"")",,,,2021-11-05 23:36:25,2021-11-05 23:36:25,0.062s,PASSED
+"tap(findTestObject(""OR APK/Klik_Lewati_after_Login""), 0)",,,,2021-11-05 23:36:25,2021-11-05 23:36:57,31.936s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:36:57,2021-11-05 23:36:59,2.047s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:36:57,2021-11-05 23:36:59,2.029s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Login,,,,2021-11-05 23:36:59,2021-11-05 23:37:13,13.706s,FAILED
+"startExistingApplication(""com.she.sehatq"")",,,,2021-11-05 23:36:59,2021-11-05 23:37:10,10.728s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 1)",,,,2021-11-05 23:37:10,2021-11-05 23:37:13,2.968s,FAILED

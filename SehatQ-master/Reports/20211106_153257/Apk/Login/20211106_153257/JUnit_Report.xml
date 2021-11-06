@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="274.59" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="274.59" skipped="0" timestamp="2021-11-06 15:33:07" hostname="muhammadyaasin - localhost" id="Test Suites/Apk/Login">
+      <properties>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muhammadyaasin/Downloads/SehatQ-master/SehatQ-master/Reports/20211106_153257/Apk/Login/20211106_153257"/>
+         <property name="logFiles" value="/Users/muhammadyaasin/Downloads/SehatQ-master/SehatQ-master/Reports/20211106_153257/Apk/Login/20211106_153257/execution0.log, /Users/muhammadyaasin/Downloads/SehatQ-master/SehatQ-master/Reports/20211106_153257/Apk/Login/20211106_153257/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadyaasin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="V2022"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="vivo"/>
+         <property name="deviceId" value="db3027ce"/>
+         <property name="deviceName" value="vivo V2022 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/APK SehatQ/Login" time="59.328" classname="Test Cases/APK SehatQ/Login" status="PASSED">
+         <system-out><![CDATA[2021-11-06 15:33:07 - [TEST_CASE][PASSED] - Test Cases/APK SehatQ/Login: Test Cases/APK SehatQ/Login
+
+2021-11-06 15:33:07 - [TEST_STEP][PASSED] - startExistingApplication("com.she.sehatq"): Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:33:09 - [MESSAGE][INFO] - Appium server started on port 53,464
+
+2021-11-06 15:33:21 - [MESSAGE][PASSED] - Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:33:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Aktifkan_Lokasimu"), 10)): null
+
+2021-11-06 15:33:25 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Aktifkan_Lokasimu' is present
+
+2021-11-06 15:33:25 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Aktifkan_Lokasi_Tidak"), 10): Tapped on element 'Object Repository/OR APK/Aktifkan_Lokasi_Tidak'
+
+2021-11-06 15:33:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Aktifkan_Lokasi_Tidak'
+
+2021-11-06 15:33:26 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Profile"), 10): Tapped on element 'Object Repository/OR APK/Klik_Profile'
+
+2021-11-06 15:33:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Profile'
+
+2021-11-06 15:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Email_Login"), email, 20): Text 'a@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:33:30 - [MESSAGE][PASSED] - Text 'a@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:33:30 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Password_Login"), password, 10): Text '123476' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:33:31 - [MESSAGE][PASSED] - Text '123476' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:33:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Button_Login"), 30)): null
+
+2021-11-06 15:33:32 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Button_Login' is present
+
+2021-11-06 15:33:32 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Button_Login"), 30): Tapped on element 'Object Repository/OR APK/Button_Login'
+
+2021-11-06 15:33:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Button_Login'
+
+2021-11-06 15:33:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Email_atau_Password_salah"), 30)): Element 'Object Repository/OR APK/Email_harus_diisi_dengan_benar' is present
+
+2021-11-06 15:34:04 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Email_atau_Password_salah not found
+
+2021-11-06 15:34:04 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Email_harus_diisi_dengan_benar' is present
+
+2021-11-06 15:34:04 - [TEST_STEP][PASSED] - else if (waitForElementPresent(findTestObject("OR APK/Email_harus_diisi_dengan_benar"), 30)): Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:34:04 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_OK_2"), 30): Tapped on element 'Object Repository/OR APK/Klik_OK_2'
+
+2021-11-06 15:34:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_OK_2'
+
+2021-11-06 15:34:04 - [TEST_STEP][PASSED] - clearText(findTestObject("OR APK/Hapus_Email"), 30): Element 'Object Repository/OR APK/Hapus_Email' text is cleared
+
+2021-11-06 15:34:05 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Hapus_Email' text is cleared
+
+2021-11-06 15:34:05 - [TEST_STEP][PASSED] - clearText(findTestObject("OR APK/Hapus_Password"), 30): Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:34:06 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:34:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-11-06 15:34:06 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APK SehatQ/Login" time="89.816" classname="Test Cases/APK SehatQ/Login" status="PASSED">
+         <system-out><![CDATA[2021-11-06 15:34:06 - [TEST_CASE][PASSED] - Test Cases/APK SehatQ/Login: Test Cases/APK SehatQ/Login
+
+2021-11-06 15:34:06 - [TEST_STEP][PASSED] - startExistingApplication("com.she.sehatq"): Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:34:08 - [MESSAGE][INFO] - Appium server started on port 53,820
+
+2021-11-06 15:34:19 - [MESSAGE][PASSED] - Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:34:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Aktifkan_Lokasimu"), 10)): Element 'Object Repository/OR APK/Logo_Login' is present
+
+2021-11-06 15:34:29 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Aktifkan_Lokasimu not found
+
+2021-11-06 15:34:30 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Logo_Login' is present
+
+2021-11-06 15:34:30 - [TEST_STEP][PASSED] - else if (waitForElementPresent(findTestObject("OR APK/Logo_Login"), 30)): Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:34:30 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Logo_Login"), 30): Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:34:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Email_Login"), email, 20): Text 'aj@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:34:31 - [MESSAGE][PASSED] - Text 'aj@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Password_Login"), password, 10): Text '238743847' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:34:33 - [MESSAGE][PASSED] - Text '238743847' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:34:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Button_Login"), 30)): Object Object Repository/OR APK/Button_Login not found
+
+2021-11-06 15:35:03 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Button_Login not found
+
+2021-11-06 15:35:03 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:35:03 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Lanjut"), 30): Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:35:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:35:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Email_atau_Password_salah"), 30)): Element 'Object Repository/OR APK/Email_harus_diisi_dengan_benar' is present
+
+2021-11-06 15:35:33 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Email_atau_Password_salah not found
+
+2021-11-06 15:35:34 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Email_harus_diisi_dengan_benar' is present
+
+2021-11-06 15:35:34 - [TEST_STEP][PASSED] - else if (waitForElementPresent(findTestObject("OR APK/Email_harus_diisi_dengan_benar"), 30)): Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:35:34 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_OK_2"), 30): Tapped on element 'Object Repository/OR APK/Klik_OK_2'
+
+2021-11-06 15:35:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_OK_2'
+
+2021-11-06 15:35:34 - [TEST_STEP][PASSED] - clearText(findTestObject("OR APK/Hapus_Email"), 30): Element 'Object Repository/OR APK/Hapus_Email' text is cleared
+
+2021-11-06 15:35:35 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Hapus_Email' text is cleared
+
+2021-11-06 15:35:35 - [TEST_STEP][PASSED] - clearText(findTestObject("OR APK/Hapus_Password"), 30): Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:35:36 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Hapus_Password' text is cleared
+
+2021-11-06 15:35:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-11-06 15:35:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APK SehatQ/Login" time="124.779" classname="Test Cases/APK SehatQ/Login" status="PASSED">
+         <system-out><![CDATA[2021-11-06 15:35:36 - [TEST_CASE][PASSED] - Test Cases/APK SehatQ/Login: Test Cases/APK SehatQ/Login
+
+2021-11-06 15:35:36 - [TEST_STEP][PASSED] - startExistingApplication("com.she.sehatq"): Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:35:38 - [MESSAGE][INFO] - Appium server started on port 54,302
+
+2021-11-06 15:35:49 - [MESSAGE][PASSED] - Starting app with application ID: 'com.she.sehatq'
+
+2021-11-06 15:35:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Aktifkan_Lokasimu"), 10)): Element 'Object Repository/OR APK/Logo_Login' is present
+
+2021-11-06 15:35:59 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Aktifkan_Lokasimu not found
+
+2021-11-06 15:35:59 - [MESSAGE][PASSED] - Element 'Object Repository/OR APK/Logo_Login' is present
+
+2021-11-06 15:35:59 - [TEST_STEP][PASSED] - else if (waitForElementPresent(findTestObject("OR APK/Logo_Login"), 30)): Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:35:59 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Logo_Login"), 30): Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:36:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Logo_Login'
+
+2021-11-06 15:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Email_Login"), email, 20): Text 'a2@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:36:01 - [MESSAGE][PASSED] - Text 'a2@mail.com' has been set to element 'Object Repository/OR APK/Email_Login'
+
+2021-11-06 15:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("OR APK/Password_Login"), password, 10): Text '123456' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:36:03 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/OR APK/Password_Login'
+
+2021-11-06 15:36:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Button_Login"), 30)): Object Object Repository/OR APK/Button_Login not found
+
+2021-11-06 15:36:33 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Button_Login not found
+
+2021-11-06 15:36:33 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:36:33 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Lanjut"), 30): Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:36:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Lanjut'
+
+2021-11-06 15:36:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("OR APK/Email_atau_Password_salah"), 30)): Object Object Repository/OR APK/Email_harus_diisi_dengan_benar not found
+
+2021-11-06 15:37:04 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Email_atau_Password_salah not found
+
+2021-11-06 15:37:34 - [MESSAGE][WARNING] - Object Object Repository/OR APK/Email_harus_diisi_dengan_benar not found
+
+2021-11-06 15:37:34 - [TEST_STEP][PASSED] - else if (waitForElementPresent(findTestObject("OR APK/Email_harus_diisi_dengan_benar"), 30)): null
+
+2021-11-06 15:37:34 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/OR APK/LogoutYa'
+
+2021-11-06 15:37:34 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Lewati_after_Login"), 30): Tapped on element 'Object Repository/OR APK/Klik_Lewati_after_Login'
+
+2021-11-06 15:37:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Lewati_after_Login'
+
+2021-11-06 15:37:34 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Yakin_Lewati_Pendaftaran_Ya"), 30): Tapped on element 'Object Repository/OR APK/Yakin_Lewati_Pendaftaran_Ya'
+
+2021-11-06 15:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Yakin_Lewati_Pendaftaran_Ya'
+
+2021-11-06 15:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_hamburger_Profile"), 30): Tapped on element 'Object Repository/OR APK/Klik_hamburger_Profile'
+
+2021-11-06 15:37:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_hamburger_Profile'
+
+2021-11-06 15:37:37 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Klik_Pengaturan_Aplikasi"), 30): Tapped on element 'Object Repository/OR APK/Klik_Pengaturan_Aplikasi'
+
+2021-11-06 15:37:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Klik_Pengaturan_Aplikasi'
+
+2021-11-06 15:37:38 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/Button_Logout"), 30): Tapped on element 'Object Repository/OR APK/Button_Logout'
+
+2021-11-06 15:37:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/Button_Logout'
+
+2021-11-06 15:37:39 - [TEST_STEP][PASSED] - tap(findTestObject("OR APK/LogoutYa"), 10): Tapped on element 'Object Repository/OR APK/LogoutYa'
+
+2021-11-06 15:37:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OR APK/LogoutYa'
+
+2021-11-06 15:37:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-11-06 15:37:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-06 15:33:07 - [TEST_SUITE][PASSED] - Login: Test Cases/APK SehatQ/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

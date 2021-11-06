@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-11-06 10:47:02,2021-11-06 10:47:36,34.006s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 10:47:02,2021-11-06 10:47:34,31.758s,PASSED
+"startExistingApplication(""com.she.sehatq"", STOP_ON_FAILURE)",,,,2021-11-06 10:47:03,2021-11-06 10:47:17,13.875s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 10)",,,,2021-11-06 10:47:17,2021-11-06 10:47:21,4.561s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 10)",,,,2021-11-06 10:47:21,2021-11-06 10:47:22,0.964s,PASSED
+"tap(findTestObject(""OR APK/Klik_Daftar""), 10)",,,,2021-11-06 10:47:22,2021-11-06 10:47:24,2.251s,PASSED
+"setText(findTestObject(""OR APK/Isi_Nama_Lengkap""), Nama_Lengkap, 10)",,,,2021-11-06 10:47:24,2021-11-06 10:47:27,2.801s,PASSED
+"setText(findTestObject(""OR APK/Isi_Email_Registrasi""), Input_Email, 10)",,,,2021-11-06 10:47:27,2021-11-06 10:47:29,1.841s,PASSED
+"setText(findTestObject(""OR APK/Isi_Password_Register""), Input_Password, 10)",,,,2021-11-06 10:47:29,2021-11-06 10:47:31,1.841s,PASSED
+"tap(findTestObject(""OR APK/Check_Saya_Setuju_Daftar""), 10)",,,,2021-11-06 10:47:31,2021-11-06 10:47:32,0.922s,PASSED
+"tap(findTestObject(""OR APK/Klik_Button_daftar""), 10)",,,,2021-11-06 10:47:32,2021-11-06 10:47:33,0.947s,PASSED
+"if (waitForElementPresent(findTestObject(""OR APK/Notif_Daftar_Email sudah ada, mohon gunakan email lain""), 10))",,,,2021-11-06 10:47:33,2021-11-06 10:47:34,1.421s,PASSED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 10:47:34,2021-11-06 10:47:36,1.865s,FAILED
+"startExistingApplication(""com.she.sehatq"", STOP_ON_FAILURE)",,,,2021-11-06 10:47:34,2021-11-06 10:47:36,1.835s,FAILED

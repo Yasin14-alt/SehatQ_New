@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cart</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ea54d31c-3a0d-43ad-8b10-070ea7e62803</testSuiteGuid>
+   <testCaseLink>
+      <guid>64cb9378-7c52-4956-b39e-f597401d065b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web SehatQ/Cart</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>16448b7d-91db-4fe1-a97b-9e31e15db306</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Web/Cart</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>16448b7d-91db-4fe1-a97b-9e31e15db306</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>88882da2-31ff-4929-a555-7cbbb1a21a55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>16448b7d-91db-4fe1-a97b-9e31e15db306</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>cf740bcf-c807-4341-b4a3-ba41a696b308</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

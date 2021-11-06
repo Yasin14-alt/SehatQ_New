@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_Jenis_Product</name>
+   <tag></tag>
+   <elementGuidId>af208388-c1a8-4f1b-aef3-2b16bd3e3f99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-bdvvtL.cuIIof > img.sc-kDTinF.jbxBNg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/div/div/div/div/nav/ul/li/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://sehatqstatic.s3-ap-southeast-1.amazonaws.com/toko_icon_category/d/vitamin-toko.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>44</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-kDTinF jbxBNg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;sc-bdvvtL koByAs&quot;]/div[@class=&quot;sc-bdvvtL koByAs&quot;]/div[@class=&quot;sc-hBUSln jOVdit&quot;]/div[@class=&quot;sc-bdvvtL ewIfzH&quot;]/div[@class=&quot;sc-jJoQJp bQIMWw&quot;]/div[@class=&quot;sc-bdvvtL bxySPW&quot;]/div[@class=&quot;sc-jJoQJp bQIMWw&quot;]/nav[@class=&quot;sc-dtDOqo ikPcEr&quot;]/ul[@class=&quot;sc-dkYRCH chNPnB&quot;]/li[@class=&quot;sc-ilfuhL gUnasm&quot;]/a[@class=&quot;sc-iCfMLu sc-crHmcD cipNPj gTJkbi sc-XxNYO diACWK&quot;]/div[@class=&quot;sc-bdvvtL cuIIof&quot;]/img[@class=&quot;sc-kDTinF jbxBNg&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/div/div/div/div/nav/ul/li/a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='[object Object]']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

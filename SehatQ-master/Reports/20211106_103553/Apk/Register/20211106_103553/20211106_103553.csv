@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-11-06 10:36:03,2021-11-06 10:36:27,24.611s,FAILED
+,,,,,,,
+Test Cases/APK SehatQ/Register,,,,2021-11-06 10:36:03,2021-11-06 10:36:27,24.310s,FAILED
+"startExistingApplication(""com.she.sehatq"", STOP_ON_FAILURE)",,,,2021-11-06 10:36:03,2021-11-06 10:36:16,12.643s,PASSED
+"tap(findTestObject(""OR APK/Aktifkan_Lokasi_Tidak""), 10)",,,,2021-11-06 10:36:16,2021-11-06 10:36:20,3.868s,PASSED
+"tap(findTestObject(""OR APK/Klik_Profile""), 10)",,,,2021-11-06 10:36:20,2021-11-06 10:36:21,1.057s,PASSED
+"tap(findTestObject(""OR APK/Klik_Daftar""), 10)",,,,2021-11-06 10:36:21,2021-11-06 10:36:23,1.685s,PASSED
+"setText(findTestObject(""OR APK/Isi_Nama_Lengkap""), Nama_Lengkap, 10)",,,,2021-11-06 10:36:23,2021-11-06 10:36:26,2.849s,PASSED
+"setText(findTestObject(""OR APK/Isi_Email_Registrasi""), Input_Email, 10)",,,,2021-11-06 10:36:26,2021-11-06 10:36:27,1.284s,PASSED
+"setText(findTestObject(""OR APK/Isi_Password_Register""), Input_Password, 10)",,,,2021-11-06 10:36:27,2021-11-06 10:36:27,0.609s,FAILED
